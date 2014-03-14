@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="0.8.0" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>Raven</name>
+ <channel>bronto.github.com/pear</channel>
+ <summary>Raven Sentry client</summary>
+ <description>A PHP client for Sentry (http://getsentry.com)</description>
+ <lead>
+  <name>David Cramer</name>
+  <user>dcramer</user>
+  <email>dcramer@gmail.com</email>
+  <active>yes</active>
+ </lead>
+ <date>2014-03-14</date>
+ <time>14:50:00</time>
+ <version>
+  <release>0.8.0</release>
+  <api>0.8.0</api>
+ </version>
+ <stability>
+  <release>beta</release>
+  <api>beta</api>
+ </stability>
+ <license uri="http://opensource.org/licenses/BSD-3-Clause">BSD License</license>
+ <notes>
+ Initial pear package
+ </notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <file name="README.rst" role="doc" />
+   <file name="LICENSE" role="doc" />
+   <dir name="lib">
+    <dir name="Raven">
+     <file name="Autoloader.php" role="php" />
+     <file name="Client.php" role="php" />
+     <file name="Compat.php" role="php" />
+     <file name="Context.php" role="php" />
+     <file name="ErrorHandler.php" role="php" />
+     <file name="Processor.php" role="php" />
+     <file name="SanitizeDataProcessor.php" role="php" />
+     <file name="Serializer.php" role="php" />
+     <file name="Stacktrace.php" role="php" />
+     <file name="Util.php" role="php" />
+    </dir>
+   </dir>
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.2.4</min>
+   </php>
+   <pearinstaller>
+    <min>1.9.4</min>
+   </pearinstaller>
+  </required>
+ </dependencies>
+ <phprelease>
+  <filelist>
+   <install name="lib/Raven/Autoloader.php" as="Raven/Autoloader.php"/>
+   <install name="lib/Raven/Client.php" as="Raven/Client.php"/>
+   <install name="lib/Raven/Compat.php" as="Raven/Compat.php"/>
+   <install name="lib/Raven/Context.php" as="Raven/Context.php"/>
+   <install name="lib/Raven/ErrorHandler.php" as="Raven/ErrorHandler.php"/>
+   <install name="lib/Raven/Processor.php" as="Raven/Processor.php"/>
+   <install name="lib/Raven/SanitizeDataProcessor.php" as="Raven/SanitizeDataProcessor.php"/>
+   <install name="lib/Raven/Serializer.php" as="Raven/Serializer.php"/>
+   <install name="lib/Raven/Stacktrace.php" as="Raven/Stacktrace.php"/>
+   <install name="lib/Raven/Util.php" as="Raven/Util.php"/>
+   <install name="README.rst" as="Raven/README.rst"/>
+   <install name="LICENSE" as="Raven/LICENSE"/>
+  </filelist>
+ </phprelease>
+</package>
