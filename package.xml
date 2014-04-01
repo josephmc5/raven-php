@@ -10,11 +10,11 @@
   <email>dcramer@gmail.com</email>
   <active>yes</active>
  </lead>
- <date>2014-03-14</date>
- <time>14:50:00</time>
+ <date>2014-04-01</date>
+ <time>11:30:00</time>
  <version>
-  <release>0.8.0</release>
-  <api>0.8.0</api>
+  <release>0.8.1</release>
+  <api>0.8.1</api>
  </version>
  <stability>
   <release>beta</release>
@@ -22,7 +22,7 @@
  </stability>
  <license uri="http://opensource.org/licenses/BSD-3-Clause">BSD License</license>
  <notes>
- Initial pear package
+  disabled ssl cert checking
  </notes>
  <contents>
   <dir baseinstalldir="/" name="/">
